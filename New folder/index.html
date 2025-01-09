@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="main.js" defer></script>
+  </head>
+  <body>
+        <header>
+                <section class="header-title-line">
+                        <h1 class="effect3d">GEORGE.</h1> <br>
+                </section>
+
+                <nav class="desktop-menu">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="aboutme.html#Featured Projects">Featured Projects</a>
+                </nav>
+
+                <div class="header-controls">
+                    <div class="menu-button" onclick="openMenu()">☰</div>
+                </div>
+
+                <div class="mobile-menu" id="mobileMenu">
+                    <div class="close-menu" onclick="closeMenu()">✖</div>
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="aboutme.html#Featured Projects">Featured Projects</a>
+                </div>
+        </header> 
+
+        <br>
+         
+        <section>
+          <article>
+            <h2 class="h2__home">Designer And Front-end Developer.</h2>
+                <p class="p__index_1"><i>I design and code beautifully simple and yet professional things, and I love what I do</i></p> <br><br>
+            <figure>
+                    <img src="profile.jpeg" alt="profile" width="500" height="500"  class="img__home">
+                </figure> <br><br>
+                <figure>
+                    <img src="work.jpeg" alt="work" width="500" height="500" class="img__home_2">
+            </figure>
+        </article> 
+        </section>    
+
+        <main> 
+                <br><p class="p__index_2 leFadeIn"><span> &nbsp;&nbsp;&nbsp; Explore my work to see how <i>I transform ideas into functional, engaging digital experiences</i> that not only look great but drive results. Whether you're looking to build from scratch, redesign, or improve user engagement, I'm here to help make it happen. <b>Click the Menu button to Explore My Work!</b></span></p>
+                <br>
+
+                <div class="btn">
+                    <button>Hire Me</a></button>
+                    <button>Let's Talk</a></button>
+                </div>
+        </main>
+        <footer class="footer">
+            <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">George</span>
+        </p>
+        </footer> 
+      
+ </body>
+</html>
